@@ -25,6 +25,7 @@ window.addEventListener('load',()=>
   closeBtn.style.display='none';
     moe.classList.add('active');
     moeBtn.classList.add('moe-btn-load');
+    moeBtn.classList.add('active-btn')
     // alert("ehll")
   //  pageLoad.innerHTML='<object type="type/html" data="index.html" ></object>';
   // pageLoad.classList.add("page-load__animate")
@@ -35,13 +36,14 @@ function openTab(name){
   if(name==='rtc'){
     rtc.classList.add('active')
     moe.classList.remove('active')
-    rtcBtn.classList.add('active-btn')
+    // rtcBtn.classList.add('active-btn')
     moeBtn.classList.remove('active-btn')
     moeBtn.classList.remove('moe-btn-load')
+    rtcBtn.classList.add('moe-btn-load');
  }
   else{
-    moeBtn.classList.add('active-btn')
-    rtcBtn.classList.remove('active-btn')
+    moeBtn.classList.add('moe-btn-load')
+    rtcBtn.classList.remove('moe-btn-load')
     rtc.classList.remove('active');
     moe.classList.add('active');
   }
@@ -75,3 +77,11 @@ window.addEventListener('scroll', function() {
     timer2=setTimeout(()=> header.classList.add('scroll-header-downward'),300)
     }, 150);
 }, false);
+
+
+
+function removeMobileMenu(){
+  menus.classList.remove('mobile-menu');
+  closeBtn.style.display='none';
+  openBtn.style.display="inline-block";
+}

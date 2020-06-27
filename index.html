@@ -9,8 +9,8 @@
 <body>
     <header id="header">
         <a ><div class="logo"><span>t</span></div></a> 
-        <svg id="close-btn" height="329pt" viewBox="0 0 329.26933 329" width="329pt" xmlns="http://www.w3.org/2000/svg"><path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/></svg>
-        <svg id="open-btn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg id="close-btn" class="close-btn" height="329pt" viewBox="0 0 329.26933 329" width="329pt" xmlns="http://www.w3.org/2000/svg"><path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/></svg>
+        <svg id="open-btn" class="open-btn" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 384.97 384.97" style="enable-background:new 0 0 384.97 384.97;" xml:space="preserve">
 <g>
 	<g id="Menu_1_">
@@ -24,7 +24,7 @@
 </g><g></g><g></g><g></g><g></g><g></g><g></g>
 </svg>
         <div class="menus" >
-    <ul class="sub-menu">
+    <ul class="sub-menu" onclick='removeMobileMenu()'>
                 <li class="lay-down__animation"><a href="#about"><span>01.</span> About</a></li>
                 <li class="lay-down__animation"><a href="#work"><span>02.</span>Experience</a></li>
                 <li class="lay-down__animation"><a href="#projects"><span>03.</span>Work</a></li>
@@ -38,9 +38,9 @@
     </section>
     <section class="social-icons">
         <ul>
-       <li><a href="/">
+       <li><a href="https://www.linkedin.com/in/tedrostesfu/">
         <svg id="Bold" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"/><path d="m.396 7.977h4.976v16.023h-4.976z"/><path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"/></svg></a></li>
-       <li><a href="/">
+       <li><a href="https://www.instagram.com/tedros_tesfu/">
            
 <svg id="Bold" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24"
  width="512" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@
  <path d="m16.948.076c-2.208-.103-7.677-.098-9.887 0-1.942.091-3.655.56-5.036 1.941-2.308 2.308-2.013 5.418-2.013 9.979 0 4.668-.26 7.706 2.013 9.979 2.317 2.316 5.472 2.013 9.979 2.013 4.624 0 6.22.003 7.855-.63 2.223-.863 3.901-2.85 4.065-6.419.104-2.209.098-7.677 0-9.887-.198-4.213-2.459-6.768-6.976-6.976zm3.495 20.372c-1.513 1.513-3.612 1.378-8.468 1.378-5 0-7.005.074-8.468-1.393-1.685-1.677-1.38-4.37-1.38-8.453 0-5.525-.567-9.504 4.978-9.788 1.274-.045 1.649-.06 4.856-.06l.045.03c5.329 0 9.51-.558 9.761 4.986.057 1.265.07 1.645.07 4.847-.001 4.942.093 6.959-1.394 8.453z"/>
 <circle cx="18.406" cy="5.595" r="1.439"/></svg>
        </a></li>
-       <li><a href="/">
+       <li><a href="https://twitter.com/Tedi_Tes">
            
 <?xml version="1.0" encoding="iso-8859-1"?>
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -65,7 +65,7 @@
 			C480.224,136.96,497.728,118.496,512,97.248z"/>
 	</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
        </a></li>
-       <li><a href="/">
+       <li><a href="https://github.com/TedTes">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              width="438.549px" height="438.549px" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549;"
              xml:space="preserve">
@@ -96,11 +96,10 @@
 <main id="main">
     <h3 class="lay-down__animation">&nbsp;Hi, my name is</h3>
     <h1 class="lay-down__animation">Tedros Tesfu.</h1>
-    <h1 class="make" class="lay-down__animation">I Make things for the Web.</h1>
-    <p class="lay-down__animation">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    st animi at numquam sapiente sint nulla! Maiores, deserunt. 
+    <h1  class="lay-down__animation">I Make things for the Web.</h1>
+    <p class="lay-down__animation">I'm Full-Stack Software developer based in Toronto ON, specializing in developing full-fledged applications and websites.
   </p>
-  <a class="lay-down__animation" href="/">Get In Touch</a>
+  <a href="mailto:tedtfu@gmail.com"class="lay-down__animation">Get In Touch</a>
 </main>
    
 
@@ -108,14 +107,13 @@
     <div class="about-desc">
         <h2><span>01.</span> About Me</h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcae cati,
-            quibusdam  voluptatum nam voluptatem susci non pit ipsum et abin em
-            ventore  sit assumenda enim nesciu nt dolor, saepete mporer eiciet 
-            ndisconsequuntur. ptio iures itassume ndaenim nesciunt dolor,saepe 
-            pore reiciendis con sequuntur.
-            
-          
-    </p>
+           Hello! ,I'm Tedros Tesfu Software Developer,based in Toronto ON.
+           I enjoy creating applications that range from simple websites to 
+           applications that are integrated to third party systems-like APIs,
+           microservices and Databases.My goal is to build applications that 
+           are scalable and have better performance.
+           <p>Some of the technologies that i have been working with recently...</p>
+            </p>
     <div class="skills">
         <ul>
             <li>JavScript(ES6+)</li>
@@ -129,29 +127,27 @@
         </ul>
     </div>
  </div>
-<img src="/images/portrait.jpg">
+<img class="about-img" src="/images/portrait.jpg">
 </section>
 <section id="work" class="work">
     <h2><span>02.</span> Where I've Worked</h2>
     <div class="work-container">
         <ul class="work-btns">
-            <li><button class="moe-btn"  onclick="openTab('moe')">MOE</button></li>
-            <li><button class="rtc-btn"  onclick="openTab('rtc')">RTC</button></li>
+            <li><button  class="moe-btn "  onclick="openTab('moe')">MOE</button></li>
+            <li><button class="rtc-btn "  onclick="openTab('rtc')">RTC</button></li>
         </ul>
         <div class="work-desc-container">
             <ul id="moe" class="work-desc">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, optio iure, 
-                    quibusdam voluptatum nam voluptatem suscipit ipsum non et ab inventore</li>
-                <li> sit assumenda enim nesciunt dolor, saepe tempore reiciendis consequuntur.
-                    Assumenda repellat facere accusamus consequatur ab repudiandae. </li>
-                <li>  assumenda omnis qui quod culpa ducimus perspiciatis nesciunt voluptates quisquam</li>
+                <li>Developed, designed, and implemented both back-end and front-end aspects of software solutions</li>
+                <li> Worked with team of Developers,achieving high productivity and growth </li>
+                <li>Develop and utilize local project management application for the entire software development system</li>
            </ul>
           <ul  id="rtc" class="work-desc">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, optio iure, 
-                et ab inventore</li>
-            <li> sit assumenda enim nesciunt dolor, saepe tempore reiciendis consequuntur.
-                Assumenda repellat facere accusamus consequatur ab repudiandae. </li>
-            <li>  assumenda omnis qui quod culpa ducimus perspiciatis nesciunt voluptates quisquam</li>
+            <li>Analyzing requirements and implementation</li>
+            <li>Design database using UML diagram.</li>
+            <li>Building Voucher, banking statement, Admin modules.</li>
+            <li>Propose plans for enhancing to web based application</li>
+            <li>prepare documentation and reference guides for Employees</li>
           </ul>
         </div>
     
@@ -159,16 +155,15 @@
     </section>
   <section id="projects" class="projects">
     <h2><span>03.</span> Some Things I've Built</h2>
-    <div class="ecom-project">
+    <div class="project-container pro1">
           <img class="pro-image" src="/images/digitalflixecom.png"/>
           <div class="pro1-desc">
               <div class="project1-title">
                 <!-- <h4>Featured Project</h4> -->
                 <h3>Digitalflix</h3>
               </div>
-                <p class="card">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis esse commodi veniam asperiores totam alias vero 
-                    labore animi corporis quo impedit temporibus sed accusamus, 
+                <p class="card">Full electronic ecommerce application that uses api-playground-REST-API,
+                             displays in concise categories and easy to use responsive user interface. 
                    </p>
                   
                 <div class="tools">
@@ -196,16 +191,12 @@
                 </div>
       </div>
     </div>
-    <div class="project2">
-         <div class="pro2-container">
+         <div class="project-container">
             <div class="pro2-desc">
                 <!-- <h4>Featured Project</h4> -->
                 <h3>ChatWeb App</h3>
-                <p class="card" >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis esse commodi veniam asperiores totam alias vero 
-                    labore animi corporis quo impedit temporibus sed accusamus, 
-                    corrupti quas suscipit ducimus, quis reprehenderit!Tenetur et aperiam, 
-                   
+                <p class="card" >Simple Realtime chat app using websocket,allowing users to engage in group chats of specific 
+                    domain with members of similar interest.Users must create account or use oauth to have access.
                  </p>
             
             <div class="pro2-tools">
@@ -234,9 +225,10 @@
                     </ul>
             </div>
          </div>
-            <img class="pro2-image" src="/images/chattapp.png"/>
+            <img class="pro-image" src="/images/chattapp.png"/>
+           
+         
         </div>
-      </div>
      <!-- <div class="project3">
         <img src="/images"/>
         <h4>Featured Project</h4>
@@ -274,15 +266,13 @@
   <section id="next" class="next">
       <h4><span>04.</span> What is Next</h4>
       <h2>Get In Touch</h2>
-      <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           At placeat quidem qui impedit minima sequi veniam consectetur
-            illo molestias officiis quis aperiam quos ullam maxime.
-      </p>
+      <p>Although Im actively working on personal projects, 
+        im available for full time position and flexible hours 
+        </p>
 
-      <a href="/">Say Hello</a>
+      <a href="mailto:tedtfu@gmail.com">Say Hello</a>
   </section>
-  <footer>
+  <footer class="footer">
       <p>Built By Tedros Tesfu 2020</p>
   </footer>
   <script src="js/script.js"></script>

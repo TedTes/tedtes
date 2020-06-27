@@ -1,0 +1,12 @@
+{
+    "name": "tedtes",
+    "version": "1.0.0",
+    "description": "portfolio",
+    "scripts": {
+      "start": "serve"
+    },
+    "dependencies": {
+      "serve": "^10.0.1"
+    },
+    "author": "Tedros Tesfu"
+  }
