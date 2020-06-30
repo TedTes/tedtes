@@ -36,7 +36,7 @@ header{
    position:sticky;
    height:4em;
    top:0;
-   z-index:10;
+   z-index:100;
    background:#222831;
    opacity:1;
    text-align:center;
@@ -68,6 +68,8 @@ header{
 .menus{
     display:flex;
     justify-content:flex-end;
+    margin-right:2.1em;
+ 
 }
 header svg{
 display:none;
@@ -173,7 +175,7 @@ main >a {
     margin-top:230px;
     transform:rotate(90deg);
     position:fixed;
-    right:-2.4em;
+    right:-.6em;
     font-size:1em;
 }
 .social-icons  ul{
@@ -846,7 +848,7 @@ footer{
 }
    }
    
-   @media(min-width:901px) and (max-width:1200px){
+   @media(min-width:901px) and (max-width:1241px){
        main,.about,.projects,.work,.next{
            margin:0 auto;
            margin-left:10.5%;
