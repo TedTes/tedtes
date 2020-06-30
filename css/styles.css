@@ -24,6 +24,7 @@ a{
 text-decoration:none;
 color:#efb1ff;
 }
+
 li{
     list-style: none;
 }
@@ -559,6 +560,9 @@ footer{
 }
 
 @media (max-width:900px){
+    body{
+        overflow-x:hidden;
+    }
     .menus{
         display:none;
    }
@@ -662,6 +666,7 @@ footer{
        width:400px;
        height:280px;
        margin:260px auto;
+       margin-top:400px;
        padding-top:6em;
        /* border:2px solid black; */
      }
@@ -701,6 +706,7 @@ footer{
        padding-top:0em;
        margin-left:2.3em;
        margin:0 auto;
+       margin-top:300px;
    
    }
    .project-container{
@@ -727,7 +733,7 @@ footer{
    } 
    .pro2-desc{
        position:absolute;
-       bottom:-13.7em;
+       bottom:-12.7em;
       z-index:unset;
    }
    .projects :nth-child(3) img{
@@ -736,8 +742,9 @@ footer{
        height:290px;
     }
     .next{
+        width:229px;
        margin-top:300px;
-       margin-left:9.5%;
+       margin-left:25.5%;
    }
    .social-icons{
        bottom:2em;
@@ -770,7 +777,7 @@ footer{
    }
    }
    @media(min-width:701px) and (max-width:800px){
-       main,.about,.projects,.work,.next{
+       main,.about,.projects,.work{
            margin-left:15%;
            margin-right:15%;
        }
@@ -782,6 +789,15 @@ footer{
            /* width:300px; */
    
        }
+  .next{
+      margin-left:35%;
+  }
+  .social-icons,.side-email{
+      left:35%;
+  }
+  .footer{
+      margin-left:9%;
+  }
    }
    @media(min-width:801px) and (max-width:900px){
        main,.projects,.work{
@@ -820,9 +836,14 @@ footer{
    }
    .next{
        margin-top:30em;
-       margin-left:10em;
+       margin-left:35%;
    }
-   
+   .social-icons,.side-email{
+    left:35%;
+}
+.footer{
+    margin-left:9%;
+}
    }
    
    @media(min-width:901px) and (max-width:1200px){
