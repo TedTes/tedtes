@@ -11,6 +11,7 @@
 html,body {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x:hidden;
     }
 
 body{
@@ -18,7 +19,7 @@ body{
     color:#e5e5e5;
     font-family: 'Roboto', serif;
     position:relative;
-    overflow-x:hidden;
+
 }
 a{
 text-decoration:none;
@@ -562,6 +563,9 @@ footer{
 }
 
 @media (max-width:900px){
+    body,html{
+        overflow-x:hidden;
+    }
     .menus{
         display:none;
    }
