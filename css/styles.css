@@ -562,9 +562,6 @@ footer{
 }
 
 @media (max-width:900px){
-    body{
-        overflow-x:hidden;
-    }
     .menus{
         display:none;
    }
@@ -572,10 +569,10 @@ footer{
         display:block;
        position:absolute;
        top:0;
-       right:0;
-       margin-top:0em;
+       right:0em;
+       margin:0em;
        flex-direction:column;
-       width:100vw;
+        width:100vw;
        background:black;
         height:100vh;
        justify-content:center;
@@ -658,6 +655,7 @@ footer{
    .about-img{
        width:220px;
        height:200px;
+       margin-left:50px;
        
    }
    
@@ -723,7 +721,12 @@ footer{
    .pro1-desc{
        position:unset;
    }
-   
+   .pro1-desc .tools{
+       position:absolute;
+   }
+   .pro1-desc .link{
+      width:45px;
+   }
    .card{
         width:400px;
         margin-top:.5em;
@@ -855,7 +858,11 @@ footer{
            margin-right:5.5%;
           
        }
-   
+       
+  header .close-btn{
+      height:0;
+      width:0;
+   }
    .about-img{
        position:absolute;
        right:-12em;
@@ -870,9 +877,7 @@ footer{
    .pro1-desc{
        position:absolute;
         right:400px;
-  
-      
-   }
+ }
    .pro2-desc{
        /* background:red; */
        width:440px;
