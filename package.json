@@ -6,7 +6,7 @@
       "start": "serve"
     },
     "dependencies": {
-      "serve": "^10.0.1"
+      "serve": "^11.3.2"
     },
     "author": "Tedros Tesfu"
   }
