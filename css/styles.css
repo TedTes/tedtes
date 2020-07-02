@@ -11,7 +11,7 @@
 html,body {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x:hidden;
+  
     }
 
 body{
@@ -19,7 +19,8 @@ body{
     color:#e5e5e5;
     font-family: 'Roboto', serif;
     position:relative;
-
+    overflow-x:hidden;
+    
 }
 a{
 text-decoration:none;
@@ -172,11 +173,10 @@ main >a {
    margin-bottom:1.1em;
 }
 .side-email{
-  
-    margin-top:230px;
+    margin-top:210px;
     transform:rotate(90deg);
     position:fixed;
-    right:-.6em;
+    right:-.1em;
     font-size:1em;
 }
 .social-icons  ul{
@@ -563,7 +563,7 @@ footer{
 }
 
 @media (max-width:900px){
-    body,html{
+    body{
         overflow-x:hidden;
     }
     .menus{
