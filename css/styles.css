@@ -566,7 +566,7 @@ footer{
     overflow:hidden;
 }
 
-@media (max-width:900px){
+@media screen and  (max-width:900px){
     body{
         overflow-x:hidden;
     }
@@ -791,7 +791,7 @@ footer{
       font-size:.8em;
    }
    }
-   @media(min-width:701px) and (max-width:800px){
+   @media screen and(min-width:701px) and (max-width:800px){
        main,.about,.projects,.work{
            margin-left:15%;
            margin-right:15%;
@@ -814,7 +814,7 @@ footer{
       margin-left:9%;
   }
    }
-   @media(min-width:801px) and (max-width:900px){
+   @media screen and (min-width:801px) and (max-width:900px){
        main,.projects,.work{
            margin-left:16%;
        }
@@ -861,28 +861,29 @@ footer{
 }
    }
    
-   @media(min-width:901px) and (max-width:1241px){
+   @media screen and (min-width:901px) and (max-width:1241px){
        main,.about,.projects,.work,.next{
            margin:0 auto;
-           margin-left:10.5%;
+           margin-left:15.5%;
            margin-right:5.5%;
           
        }
-       
-  header .close-btn{
+    
+       header .close-btn{
       height:0;
       width:0;
    }
    .about-img{
        position:absolute;
-       right:-12em;
+       right:-10em;
      
    }
+  
    .about-desc > p{
       width:450px;
     }
    .pro-image{
-       width:470px;
+       width:560px;
    }
    .pro1-desc{
        position:absolute;
@@ -895,7 +896,7 @@ footer{
    }
    .projects :nth-child(3) img{
        margin-left:17em;
-     width:470px;
+     width:560px;
      height:340px;
     }
     .next{
@@ -932,4 +933,11 @@ footer{
    .work,.projects,.about{
        margin-top:6em;
    }
+   .about{
+    margin-top:55px;
+    margin-bottom:80px;
+    height:490px;
+    /* border:solid white 2px; */
+     
+}
    } 
