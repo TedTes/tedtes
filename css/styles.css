@@ -26,6 +26,14 @@ body{
     overflow-x:hidden;
     
 }
+.git-pro{
+    width:600px;
+    height:450px;
+    opacity:.7;
+}
+.git-pro:hover{
+    opacity:1;
+}
 a{
 text-decoration:none;
 color:#efb1ff;
@@ -773,6 +781,8 @@ footer{
     font-weight:bold;
    
 }
+
+
    .side-email{
        transform:unset;
        position:absolute;
@@ -789,6 +799,9 @@ footer{
    }
    .footer p{
       font-size:.8em;
+   }
+   .git-pro{
+       width:400px;
    }
    }
    @media screen and(min-width:701px) and (max-width:800px){
@@ -848,7 +861,13 @@ footer{
    
    .pro1-desc,.pro2-desc,.card,.pro-image{
        width:600px;
+     
    }
+   .project-container a .git-pro{
+  height:410px;
+  width:600px;
+
+}
    .next{
        margin-top:30em;
        margin-left:35%;
