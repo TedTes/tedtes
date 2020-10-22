@@ -205,7 +205,9 @@ main >a {
     justify-content: space-between;
     margin-left:8.5em;
     padding:1em;
-    padding-top:6em;
+    width:900px;
+    padding-top:3em;
+   
 }
  h2{
     font-size:1.9em;
@@ -218,10 +220,11 @@ h2 > span{
 }
 .about-img{
     position:unset;
-    margin-right:27%;
+    margin-right:10%;
     height:240px;
     margin-top:3.5em;
     opacity:.6;
+   
     
 }
 .about-img:hover{
@@ -335,9 +338,9 @@ h2 > span{
    
 }
 .projects{
-    margin:0 150px;
-    padding-top:6em;
-    position:relative;
+
+     margin:140px 150px;
+     position:relative;
 }
 .pro1{
    
@@ -362,6 +365,7 @@ h2 > span{
 .projects :nth-child(3) img{
    margin-top:5em;
    margin-left:380px;
+  
 }
 .card{
    
@@ -658,9 +662,10 @@ footer{
    .about{
         flex-direction:column;
         width:430px;
-        /* border:solid 2px white; */
+     
         margin-left:25px;
         margin:0 auto;
+      
    }
    .about-desc > p{
        width:380px;
@@ -724,8 +729,7 @@ footer{
        padding-top:0em;
        margin-left:2.3em;
        margin:0 auto;
-       margin-top:300px;
-   
+       margin-top:370px;
    }
    .project-container{
         flex-direction:column;
@@ -763,6 +767,7 @@ footer{
        margin-top:4em;
        margin-left:unset;
        height:290px;
+      
     }
     .next{
         width:229px;
@@ -802,21 +807,23 @@ footer{
    }
    .git-pro{
        width:400px;
+  
    }
    }
    @media screen and(min-width:701px) and (max-width:800px){
        main,.about,.projects,.work{
            margin-left:15%;
            margin-right:15%;
+          
        }
+    
        .pro1-desc,.pro2-desc,.card,.pro-image,.work{
            width:500px;
        }
        main h1,main:nth-child(3){
            font-size:1.7em;
            /* width:300px; */
-   
-       }
+     }
   .next{
       margin-left:35%;
   }
@@ -826,11 +833,14 @@ footer{
   .footer{
       margin-left:9%;
   }
+
    }
    @media screen and (min-width:801px) and (max-width:900px){
        main,.projects,.work{
            margin-left:16%;
+          
        }
+
        main h1,main:nth-child(3){
            font-size:1.8em;
        }
@@ -843,8 +853,7 @@ footer{
            margin-top:4em;
       }
       .about-img{
-          margin-right:-15em;
-         
+          margin-right:-15em; 
       }
       .about-desc > p{
        font-size:1em;
@@ -886,6 +895,7 @@ footer{
            margin-left:15.5%;
            margin-right:5.5%;
           
+          
        }
     
        header .close-btn{
@@ -894,8 +904,7 @@ footer{
    }
    .about-img{
        position:absolute;
-       right:-10em;
-     
+       left:65%;
    }
   
    .about-desc > p{
@@ -909,7 +918,6 @@ footer{
         right:400px;
  }
    .pro2-desc{
-       /* background:red; */
        width:440px;
        left:-1.9em;
    }
@@ -917,6 +925,7 @@ footer{
        margin-left:17em;
      width:560px;
      height:340px;
+
     }
     .next{
         margin:250px auto;

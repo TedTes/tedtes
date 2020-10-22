@@ -1,7 +1,7 @@
-var moe=document.getElementById('moe');
-var rtc=document.getElementById('rtc');
-var moeBtn=document.querySelector('.moe-btn')
-var rtcBtn=document.querySelector('.rtc-btn');
+// var moe=document.getElementById('moe');
+// var rtc=document.getElementById('rtc');
+// var moeBtn=document.querySelector('.moe-btn')
+// var rtcBtn=document.querySelector('.rtc-btn');
 var header=document.getElementById("header");
 var body=document.getElementsByTagName('body');
 var pageLoad=document.getElementById('page-load_animate')
@@ -23,9 +23,9 @@ closeBtn.addEventListener('click',()=>{
 window.addEventListener('load',()=>
 {
   closeBtn.style.display='none';
-    moe.classList.add('active');
-    moeBtn.classList.add('moe-btn-load');
-    moeBtn.classList.add('active-btn')
+    // moe.classList.add('active');
+    // moeBtn.classList.add('moe-btn-load');
+    // moeBtn.classList.add('active-btn')
     // alert("ehll")
   //  pageLoad.innerHTML='<object type="type/html" data="index.html" ></object>';
   // pageLoad.classList.add("page-load__animate")
@@ -34,18 +34,18 @@ window.addEventListener('load',()=>
 
 function openTab(name){
   if(name==='rtc'){
-    rtc.classList.add('active')
-    moe.classList.remove('active')
+    // rtc.classList.add('active')
+    // moe.classList.remove('active')
     // rtcBtn.classList.add('active-btn')
-    moeBtn.classList.remove('active-btn')
-    moeBtn.classList.remove('moe-btn-load')
-    rtcBtn.classList.add('moe-btn-load');
+    // moeBtn.classList.remove('active-btn')
+    // moeBtn.classList.remove('moe-btn-load')
+    // rtcBtn.classList.add('moe-btn-load');
  }
   else{
-    moeBtn.classList.add('moe-btn-load')
-    rtcBtn.classList.remove('moe-btn-load')
-    rtc.classList.remove('active');
-    moe.classList.add('active');
+    // moeBtn.classList.add('moe-btn-load')
+    // rtcBtn.classList.remove('moe-btn-load')
+    // rtc.classList.remove('active');
+    // moe.classList.add('active');
   }
 
 }
