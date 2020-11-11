@@ -776,7 +776,7 @@ footer{
    }
    .social-icons{
        bottom:2em;
-       left:25.5%;
+       left:35%;
        width:229px;
    }
 .social-icons  ul{
@@ -881,8 +881,11 @@ footer{
        margin-top:30em;
        margin-left:35%;
    }
-   .social-icons,.side-email{
+  .side-email{
     left:35%;
+}
+.social-icons{
+    left:41%;
 }
 .footer{
     margin-left:9%;
@@ -943,7 +946,7 @@ footer{
    }
    .social-icons{
            bottom:3em;
-           left:37.5%;
+           left:41.5%;
            width:229px;
        }
    .social-icons  ul{
